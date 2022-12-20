@@ -1,0 +1,27 @@
+.counterButton{
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    font-size: 20px;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+}
+
+.counterButton:hover{
+    opacity: 0.5;
+}
+
+.open-modal .counterButton{
+  height: 24px;
+  width: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid #1D1F22;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+justify-content: center;
+}

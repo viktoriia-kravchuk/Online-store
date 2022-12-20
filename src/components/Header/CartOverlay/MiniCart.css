@@ -1,0 +1,136 @@
+.open-modal {
+    position: absolute;
+    padding: 32px 16px;
+    margin-top: 1em;
+    box-sizing: border-box;
+    right: 5%;
+    z-index: 2;
+    transition: all 0.3s ease-out;
+    animation: openModal 0.4s ease-out forwards;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+
+@keyframes openModal {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
+}
+
+.label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+    text-align: left;
+}
+
+.productsContainer_mini {
+    width: 325px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+}
+
+.open-modal .allAttributes {
+    margin: 0px;
+}
+
+.open-modal .attributeContainer {
+    margin-bottom: 10px;
+}
+
+.open-modal .attributeTitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    text-transform: none;
+
+}
+
+.itemTitle_mini {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+}
+
+.itemPrice_mini {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D1F22;
+}
+
+
+.attributeOptions {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.open-modal .colorRadio {
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+
+}
+
+
+.open-modal .textRadio {
+    width: 26px;
+    height: 26px;
+    font-weight: 300;
+    font-size: 9px;
+    margin-right: 8px;
+}
+
+.open-modal .button {
+    width: 140px;
+    height: 43px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.totalMiniTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.totalMiniPrice {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+}

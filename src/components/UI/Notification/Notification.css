@@ -1,0 +1,35 @@
+@-webkit-keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  50% {
+    opacity: 1;
+  }
+}
+
+.popup {
+  height: 40px;
+  width: 250px;
+  position: fixed;
+  right: 0;
+  top: 100px;
+  -webkit-animation: fadeinout 5s linear forwards;
+  animation: fadeinout 5s linear forwards;
+  opacity: 0;
+  vertical-align: top;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  background-color: #5ECE7B;
+}
+
+.error {
+  background-color: #ce5e5e;
+}

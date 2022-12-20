@@ -1,0 +1,25 @@
+div.summary {
+    width: 20vw;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.summary div {
+    flex: 1;
+    flex-basis: 50%;
+
+}
+.text{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1F22;
+}

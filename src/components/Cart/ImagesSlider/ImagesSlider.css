@@ -1,0 +1,45 @@
+.sliderContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 288px;
+    width: 200px;
+}
+
+.arrowsWrapper {
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.rightSide {
+    transform: rotate(180deg);
+    margin-left: 8px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.73);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.slideImg{
+    max-width: 200px;
+    max-height: 288px;
+}
+
+.open-modal .sliderContainer{
+    max-height: 190px;
+    max-width: 121px;
+
+}
+.open-modal .slideImg{
+    max-width: 121px;
+    max-height: 190px;
+}

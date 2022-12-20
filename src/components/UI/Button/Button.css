@@ -1,0 +1,32 @@
+.button {
+    margin-top: 30px;
+    width: 20vw;
+    height: 50px;
+    background-color: #5ECE7B;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 7px;
+    transform: scale(1.013);
+    text-transform: scale(1.013);
+}
+
+.button:disabled{
+    opacity: 0.7;
+    pointer-events: none;
+    cursor: default;
+}
+
+.whiteButton{
+    background-color: white;
+    color: #1D1F22;
+    border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+.container {
+    padding: 5px 0;
+}
+
+.title {
+    font-family: "Raleway";
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 160%;
+    margin-left: 2em;
+    margin-top: 1em;
+
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2em;
+}
