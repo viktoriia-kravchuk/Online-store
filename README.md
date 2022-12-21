@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting started
+## Getting started 🚀
 
 **1st STEP**:  
 
@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **3rd STEP**:  
 
 - Run the app in the development mode with `npm start`.  
-🚀 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## About project 📖  
 
