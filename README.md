@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Junior Frontend Developer Test
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+----
 
-### `npm start`
+**1st STEP**:  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Follow [link](https://github.com/scandiweb/junior-react-endpoint) and instructions to run the backend server for this project.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**2nd STEP**:  
 
-### `npm test`
+- Clone this repository.  
+- Install dependencies in the project folder with `npm install`.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**3rd STEP**:  
 
-### `npm run build`
+- Run the app in the development mode with `npm start`.  
+🚀 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About project 📖  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+----
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The provided endpoint is a [GraphQL](https://graphql.org/learn/) endpoint.  
+- Data is fetched from the GraphQL endpoint and provided interface allow to view and interact with this data.  
+- In project were used React Class based components, Redux and CSS.
 
-### `npm run eject`
+## Functionality 💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+➡️ **Product listing page**.  
+![products](/pdfs/products.png)
+➡️**Product description page**.  
+![pdp](/pdfs/pdp.png)
+➡️**Cart page**.  
+![cart](/pdfs/cart.png)
+➡️**Cart overlay (minicart)**
+![minicart](/pdfs/minicart.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Details 📝  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✔️ Ability to add/remove products and change their amounts in cart - on the cart page itself, product listing page and product description page.  
+✔️ For products that have various options (attributes) - the options are selected.  
+✔️ The selected options of added to cart products are visible in cart overlay and in cart page.  
+✔️ A representation of the attributes value is rendered on pages (e.g. the color itself, not "Blue" or "0000FF").  
+✔️ Filtering products by category name for all of the categories.  
+✔️ Ability to change the currency of the store to one of the available currencies.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+----
 
-## Learn More
+## Author 👩‍💻 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github [viktoriia-kravchuk](https://github.com/viktoriia-kravchuk)
+- LinkedIn [Viktoriia Kravchuk](www.linkedin.com/in/viktoriia-kravchuk)
+- Website <https://viktoriia-kravchuk.github.io/portfolio/>  
