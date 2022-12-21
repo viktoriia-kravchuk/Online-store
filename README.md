@@ -5,8 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting started
 
-----
-
 **1st STEP**:  
 
 - Follow [link](https://github.com/scandiweb/junior-react-endpoint) and instructions to run the backend server for this project.  
@@ -22,8 +20,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 🚀 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## About project 📖  
-
-----
 
 - The provided endpoint is a [GraphQL](https://graphql.org/learn/) endpoint.  
 - Data is fetched from the GraphQL endpoint and provided interface allow to view and interact with this data.  
@@ -48,8 +44,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ✔️ A representation of the attributes value is rendered on pages (e.g. the color itself, not "Blue" or "0000FF").  
 ✔️ Filtering products by category name for all of the categories.  
 ✔️ Ability to change the currency of the store to one of the available currencies.  
-
-----
 
 ## Author 👩‍💻 
 
