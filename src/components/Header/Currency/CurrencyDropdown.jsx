@@ -47,7 +47,7 @@ class CurrencyDropdown extends PureComponent {
           this.setState({ openDropdown: !this.state.openDropdown })
         }
       >
-        <span>{this.props.shop.currency} </span>
+        <span className="currencySign"> {this.props.shop.currency} </span>
         <Arrow
           className={`dropbtn ${this.state.openDropdown && "active-dropbtn"}`}
         />

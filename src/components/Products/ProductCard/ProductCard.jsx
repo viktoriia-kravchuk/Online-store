@@ -71,7 +71,7 @@ class ProductCard extends PureComponent {
             />
           )}
           <div className="productInfo">
-            <p>{product.name}</p>
+            <p>{product.brand} {product.name}</p>
             <div className="price">
               {this.props.shop.currency}
               {price}

@@ -16,7 +16,6 @@ class CartOverlay extends PureComponent {
   openMiniCart = () => {
     this.setState({ showMiniCart: !this.state.showMiniCart });
   };
-  
 
   render() {
     return (
@@ -42,6 +41,9 @@ class CartOverlay extends PureComponent {
 
           {this.state.showMiniCart && (
             <MiniCart setIsOpen={this.openMiniCart} />
+          )}
+          {this.state.showMiniCart && (
+            <div onClick={this.openMiniCart} className="backdrop"></div>
           )}
         </div>
       </div>

@@ -91,3 +91,10 @@ a .navigationElement {
   justify-content: space-between;
   margin-right: 6em;
 }
+
+
+.currencySign:hover {
+  border-bottom: solid #5ECE7B;
+  color: #5ECE7B;
+
+}
